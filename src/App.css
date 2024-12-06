@@ -1,0 +1,25 @@
+/* App.css */
+.App {
+  padding: 20px;
+}
+
+.post-card, .user-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.posts, .users {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.posts .post-card, .users .user-card {
+  width: 30%;
+  margin-right: 20px;
+}
